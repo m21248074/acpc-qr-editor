@@ -1,7 +1,7 @@
 # Animal Crossing: Pocket Camp Complete - Unofficial Camper Card Editor
 
 How to Use:
- - go to
+ - go to https://jeremy-friesen.github.io/acpc-qr-editor/
  - upload a camper card file
  - make changes to the input fields
  - import the new camper card by
