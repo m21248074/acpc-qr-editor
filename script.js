@@ -48,7 +48,11 @@ function renderJsonEditor() {
 
         // Add change listener to update JSON and regenerate QR
         input.addEventListener('input', (event) => {
-            currentJsonData[key] = event.target.value;
+            if (event.target.value.includes(',')) {
+                currentJsonData[key] = event.target.value.split(',');
+            } else {
+                currentJsonData[key] = event.target.value;
+            }
             updateQR();
         });
 
