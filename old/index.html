@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QR Code JSON Modifier</title>
+    <!-- <script src="https://unpkg.com/jsqr"></script> -->
+    <!-- <script src="https://unpkg.com/jsqr/dist/jsQR.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/jsqr/dist/jsQR.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- <script type="text/javascript" src="//code.jsqr.de/jsqr-1.0.2-min.js"></script> -->
+
+    <script src="https://cdn.jsdelivr.net/npm/qrcode/build/qrcode.min.js"></script>
+  </head>
+
+  <body class="background">
+    <!-- <div class="overlay"> -->
+    <div class="content">
+      <h2>AC: Pocket Camp - Unofficial Camper Card Editor</h2>
+      <p>Edit your Camper Card QR Code to import custom campers!</p>
+      <h3 class="info">Info:</h3>
+      <p class="info">
+        There's an issue with reading certain camper codes. If this app isn't
+        reading the QR you saved from AC:PC, try changing the background colour.
+        You can change the colour back once imported.
+      </p>
+      <p class="info">
+        <u
+          >To import copies of yourself, you must change the
+          <b>PlayerId</b> value.</u
+        >
+      </p>
+      <p class="info">
+        <b>BGColor</b>: 0-orange 1-pink 2-lightgreen 3-darkgreen 4-brown 5-red
+        6-purple 7-blue
+      </p>
+      <p class="info"><b>PlayerName</b>: max 10 characters</p>
+      <p class="info"><b>max Level</b>: 1999999999</p>
+      <p>
+        Check out the
+        <a href="https://github.com/jeremy-friesen/acpc-qr-editor">Readme</a>
+        for more info
+      </p>
+      <input type="file" id="file-input" accept="image/*" />
+      <p id="status"></p>
+      <canvas id="canvas"></canvas>
+      <div id="qr-display"></div>
+      <div id="json-editor" class="json-editor"></div>
+      <script src="script.js"></script>
+    </div>
+    <!-- </div> -->
+    <footer>
+      <p>
+        <li>
+          <a
+            href="https://github.com/jeremy-friesen/acpc-qr-editor"
+            target="_blank"
+            >GitHub</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.reddit.com/r/AnimalCrossing/comments/7jf0s6/my_take_on_a_wallpaper_from_the_pocket_camp/"
+            target="_blank"
+            >Background Credit</a
+          >
+        </li>
+        <li>
+          <!-- image -->
+          <a href="jeremyCode.png" alt="Add me">Add my camper card :)</a>
+        </li>
+      </p>
+    </footer>
+  </body>
+</html>

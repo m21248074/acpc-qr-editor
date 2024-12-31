@@ -1,7 +1,9 @@
 # Animal Crossing: Pocket Camp Complete - Unofficial Camper Card Editor
 
+## 動物森友會: 口袋露營廣場 - 非官方露營者卡片編輯器
+
 How to Use:
- - go to https://jeremy-friesen.github.io/acpc-qr-editor/
+ - go to https://m21248074.github.io/acpc-qr-editor/
  - upload a camper card file
  - make changes to the input fields
  - import the new camper card by
@@ -28,3 +30,29 @@ Clothes:
 |----------------|----------------|----------------|
 | mint gingham tee  | 216  | 3  |
 | red snowperson outfit  | 5075083  | 3  |
+
+## Recommended IDE Setup
+
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+
+## Customize configuration
+
+See [Vite Configuration Reference](https://vite.dev/config/).
+
+## Project Setup
+
+```sh
+npm install
+```
+
+### Compile and Hot-Reload for Development
+
+```sh
+npm run dev
+```
+
+### Compile and Minify for Production
+
+```sh
+npm run build
+```
